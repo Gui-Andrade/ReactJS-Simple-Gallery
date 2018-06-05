@@ -1,0 +1,65 @@
+.gallery-container
+  position: relative
+  display: flex
+  flex-direction: column
+
+#slides
+  padding: 0px
+  margin: 0px
+  list-style-type: none
+
+.flex-item
+  height: 100%
+  flex: 1
+  align-items: stretch
+  justify-content: space-between
+
+.slide
+  position: absolute
+  left: 0px
+  top: 0px
+  width: 100%
+  height: 100%
+  opacity: 0
+  z-index: 1
+  transition: opacity 1.5s
+  font-size: 40px
+  box-sizing: border-box
+
+.showing
+  opacity: 1
+  z-index: 2
+
+.slide img
+  width: 100%
+  height: auto
+
+.controls
+  background-color:rgba(0, 0, 0, 0.4);
+  color: #fff
+  border: none
+  font-size: 30px
+  font-weight: bold
+  cursor: pointer
+  // border: 2px solid #fff
+  width: 50px
+  height: 20%
+  position: absolute
+
+.buttons-container
+  opacity: 1
+  z-index: 100
+  flex: 1
+  padding: 25% 50%
+
+.buttons
+  font-size: 0
+  width: 100%
+
+#previous
+  float: left
+  left: 0
+
+#next
+  float: right
+  right: 0
