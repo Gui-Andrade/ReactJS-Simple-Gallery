@@ -6,5 +6,5 @@ npm install
 
 npm run start
 
-##Demo
+## Demo
 https://codesandbox.io/s/github/Gui-Andrade/ReactJS-Simple-Gallery
